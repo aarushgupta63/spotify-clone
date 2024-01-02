@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  font-family: sans-serif;
+  position: relative;
+  background-color: black;
+}
+#invert {
+  filter: invert();
+}
+
+#main {
+  margin: 1vh;
+  display: flex;
+  gap: 0.5vw;
+  justify-content: center;
+  /* align-items: center; */
+  width: 99%;
+  height: 100vh;
+}
+
+#leftside {
+  border-radius: 5px;
+  /* position: absolute; */
+  width: 25%;
+  /* text-align: center; */
+  justify-content: space-evenly;
+  background-color: #121212;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  /* margin: 10px; */
+  padding: 25px 25px;
+  gap: 16px;
+}
+#leftside > div {
+  gap: 30px;
+  /* background-color: yellow; */
+  /* filter: invert(); */
+  display: flex;
+}
+
+.spotifysvg {
+  filter: invert();
+  width: 75px;
+}
+.searchsvg {
+  filter: invert();
+  width: 20px;
+}
+.homesvg {
+  filter: invert();
+  width: 20px;
+}
+
+#rightside {
+  border-radius: 5px;
+  position: relative;
+
+  width: 75%;
+  height: 90vh;
+  background-color: #121212;
+}
+#leftdown {
+  position: absolute;
+  left: 8px;
+  /* background-color: red; */
+  top: 21%;
+  /* right: 12px; */
+  border-radius: 5px;
+  height: 69%;
+
+  width: 24.5%;
+  background-color: #121212;
+}
+#left2 {
+  width: 100%;
+  /* background-color: red; */
+  background-color: #120707;
+  height: 7vh;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#left2 h3 {
+  font-size: 15px;
+  /* background-color: yellow; */
+  /* margin-right: 12vw; */
+}
+#left2 img {
+  display: flex;
+  width: 28px;
+  margin: 10px 20px;
+  justify-content: space-between;
+  filter: invert();
+  gap: 30px;
+  /* font-size: 30px; */
+}
+#plus {
+  width: 15px;
+  margin: 0px 200px;
+}
+
+#rightside .nav {
+  border-radius: 5px;
+  /* width: 100%; */
+  background-color: #0a0707;
+  /* height: 9vh; */
+}
+.nav {
+  /* position: relative; */
+  /* margin: 5px 5px; */
+  /* background-color: yellow; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+  filter: invert();
+}
+.cards {
+  flex-wrap: wrap;
+  margin: 1.7vw 2vw;
+  height: 38%;
+  width: 18%;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  background-color: #191919;
+  /* background-color: red; */
+}
+.cards img {
+  /* inset-inline-start:; */
+  height: 76%;
+  border-radius: 25px;
+  width: 100%;
+  padding: 12px;
+  object-fit: contain;
+}
+.songinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 20px;
+  margin: 0px 19px;
+}
+.songinfo h4 {
+  font-size: 14px;
+  width: 100%;
+  font-weight: 800;
+  /* margin-right: 5vw; */
+  /* line-height: 40px; */
+}
+.songinfo p {
+  font-size: 14px;
+}
+
+.nleft img {
+  margin: 15px 15px;
+  color: #bc1414;
+  width: 25px;
+  /* position: absolute; */
+  background-color: rgb(5, 5, 5);
+  background-color: #0e6d27;
+
+  margin: 4px 5px;
+  border-radius: 50%;
+}
+img.playbutton {
+  width: 46px;
+  height: 45px;
+  margin: 3px;
+  margin-left: 138px;
+  margin-top: -8vh;
+  background-color: green
+}
+.nright {
+  margin: 4px 15px;
+  padding: 15px 25px;
+}
+
+.btn {
+  background-color: #121212;
+  color: #fff;
+  border: none;
+  border-radius: 16px;
+  padding: 10px 21px;
+  font-weight: 800;
+  /* gap: 30px; */
+}
+.firstfooter {
+  display: flex;
+  color: #fff;
+  flex-wrap: wrap;
+  line-height: 2vh;
+  padding: 5px;
+  gap: 23px;
+  margin-left: 16px;
+  margin-top: 90%;
+}
+#lastfoot {
+  /* background-color: #120707; */
+  display: flex;
+  border: 1px solid white;
+  width: 25%;
+  border-radius: 20px;
+  margin: 15px 19px;
+  /* padding: 0px 9px; */
+}
+.eng {
+  color: white;
+  background-color: #121212;
+  border: none;
+  margin: 7px 2px;
+  padding: 2px 2px;
+}
+.glove {
+  width: 20px;
+  margin: 6px;
+}
+.rightfooter{
+  padding-top: 12vh;
+  filter: invert();
+  margin: 20px;
+  display: flex;
+  display: grid;
+  line-height: 25px;
+  /* align-items: center; */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.logoes{
+  width: 50px;    gap: 17px;
+  display: flex;
+  width: 106px;
+  margin-bottom: 11vh;
+  margin-left: 10vw;
+}
+
